@@ -1,5 +1,5 @@
 // Logan Vanhuffel
-// p.123
+// p.138
 
 public class SpaService 
 {
@@ -8,9 +8,7 @@ public class SpaService
 
     public SpaService()
     {
-        serviceDescription = "XXX";
-        price = 0;
-
+        this("XXX", 0);
     }
     public SpaService(String desc, double pr)
     {
